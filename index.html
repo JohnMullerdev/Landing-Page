@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" rel>
+    <link rel="stylesheet" href="./media.css" rel>
+    <title>Landing Page</title>                <!--LANDING PAGE COM HTML E CSS-->
+</head>
+<body>
+    <header>        <!--Semântica dento da Div--> 
+        <div id="title">
+            <h1>The World</h1>
+            <h1>and Dragons</h1>
+        </div>  
+     
+        <ul>    <!-- Usando a lista desodernada-->
+          <a href="#"><li>História</a>
+          <a href="#"><li>Dungeons</a>
+          <a href="#"><li>Lore</a>
+          <a href="#"><li>Contato</a>
+          <a href="#"><li>Já tem uma conta?</a> <!--Utilizando o "a" encapsular tudo que esta dentro do a é um link para colocar o link na lista.-->
+         </ul>
+    </header>
+    
+    <main> <!--Parte principal do site-->
+        <aside> <!--tag semântica para definir uma página que tenha um lado.-->
+            <h2><span>Inscreva-se agora</span></h2>
+            <h2>para Dungeons</h2>
+            <p>Batalhas épicas e dramas intensos compõem Mundos de Dragões. Agora, os seis sobreviventes levados a lutar numa guerra insana envolvendo armaduras de metal-vivo e sangue de dragão se preparam para a luta final. Mas será que eles serão capazes de libertar a Terra, devastada por reptilianos, demônios e escravidão?
+                <!--Gerador de texto lorem, dentro do paragráfo-->
+            </p>
+            <form> <!--formulário-->
+                <input type="text" placeholder="Nome">
+                <input type="email" placeholder="E-mail">
+                <input type="submit" value="Enviar >">
+            </form>
+        </aside>
+
+        <article> <!--Div semântica para imagens-->
+            <img src="critical role rpg dnd.png" alt=" Dungeons & Dragons">
+        </article>
+    </main>
+    
+</body>
+</html>
